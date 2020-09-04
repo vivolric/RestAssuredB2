@@ -1,4 +1,6 @@
 import io.restassured.http.ContentType;
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
