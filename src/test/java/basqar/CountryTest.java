@@ -5,6 +5,7 @@ import io.restassured.http.ContentType;
 import io.restassured.http.Cookies;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.BeforeClass;
+import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -13,6 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.*;
+import static org.codehaus.groovy.tools.shell.util.Logger.io;
 import static org.hamcrest.Matchers.*;
 
 public class CountryTest {

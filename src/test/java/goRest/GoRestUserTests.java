@@ -7,6 +7,8 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
